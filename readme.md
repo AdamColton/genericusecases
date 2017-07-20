@@ -29,3 +29,7 @@ func main() {
     mySet.Add(foo.(int)) // compiles and works fine, but potentially a panic risk at runtime
 }
 ```
+
+### Kubernetes Generators
+[Kubernetes Generators](https://github.com/kubernetes/kubernetes/tree/master/cmd/libs/go2idl/client-gen/generators)
+
